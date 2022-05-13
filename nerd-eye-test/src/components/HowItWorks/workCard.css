@@ -1,0 +1,55 @@
+.work-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+
+}
+
+.work-card-header{
+    background: #C4C4C4;
+    opacity: 0.5;
+    height: 93px;
+    width:93px;
+    border-radius: 40px;
+}
+
+.number h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #3C3A3A;
+}
+
+
+.work-card-body h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #3C3A3A;
+}
+
+.work-card-body p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #3C3A3A;
+}
+
+@media(max-width:990px){
+    .work-card{
+        padding-top: 2rem;
+    }
+}

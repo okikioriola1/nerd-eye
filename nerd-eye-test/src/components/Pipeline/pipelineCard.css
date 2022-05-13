@@ -1,0 +1,42 @@
+.pipeline-card{
+    background: #FFFFFF;
+    width: 327px;
+    height: 292px;
+    box-shadow: 0px 37px 90px 6px rgba(87, 87, 87, 0.12);
+    border-radius: 20px;
+    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+    padding: 1rem 2rem;
+}
+
+
+.pipeline-card-text h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #3C3A3A;
+}
+
+.pipeline-card-text p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: #D23431;
+}
+.pipline-card-top{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pipeline-card-bottom{
+    display: flex;
+    height: 65%;
+    align-items: flex-end;
+}

@@ -1,0 +1,141 @@
+.join-us-section{
+    padding-bottom:5rem;
+}
+
+.join-us-top-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.join-us-right-header h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.join-us-right-header p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #575757;
+}
+
+.join-us-main-section{
+    display: flex;
+}
+
+.join-us-right-header h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+ }
+.join-us-right-header p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #575757;
+} 
+
+.input-field input{
+    background: #F5F5F5;
+    border-radius: 5px;
+    width:400px;
+    height:60px;
+    outline: none;
+    border: 1px solid #F5F5F5;
+}
+.input-field{
+    padding-bottom: 1rem;
+}
+
+.input-field p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #575757;
+    
+}
+.join-us-left-img{
+    border: 1px solid #D23431;
+    border-bottom-right-radius: 355px;
+    border-top-right-radius: 295px;
+    border-top-left-radius: 335px;
+    border-bottom-left-radius: 345px;
+    width: 656px;
+}
+
+.join-us-left{
+    width:50%;
+}
+.join-us-right{
+    width:50%;
+}
+
+.submit-btn{
+    width: 111px;
+    height: 58px;
+    background: #D23432;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    outline: none;
+    border:1px solid #D23432;
+}
+
+
+@media(max-width:1250px){
+    .join-us-left{
+        display: none;
+    }
+    .join-us-right{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .join-us-right-header p,
+    .join-us-right-header h1{
+        text-align: center;
+    }
+    .join-us-right-header p{
+        padding:0.3rem 1.7rem;
+    }
+}
+
+@media(max-width:550px){
+    .input-field input{
+        width:300px;
+        height:60px;
+    }
+    .join-us-right-header h1{
+        font-size:27px;
+        line-height: 36px;
+    }
+    .join-us-right-header p{
+        font-size:12px;
+        line-height: 12px;
+    }
+
+}

@@ -1,0 +1,46 @@
+.success-stories-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 530px;
+    height: 499px;
+    background: #FFFFFF;
+    box-shadow: 0px 37px 90px 6px rgba(87, 87, 87, 0.12);
+    border-radius: 5px;
+    padding:1.5rem;
+}
+
+.profile-card-header h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: #D23431;
+}
+
+.profile-card-text p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #575757;
+
+}
+
+@media(max-width:600px){
+    .success-stories-card{
+        width:330px;
+    }
+
+    .profile-card-text p{
+        font-size: 12px;
+    }
+}

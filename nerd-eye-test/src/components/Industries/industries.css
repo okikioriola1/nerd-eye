@@ -1,0 +1,54 @@
+
+
+
+.industries-header h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #3C3A3A;
+
+}
+
+.red{
+    color:#D23431
+}
+
+.industries-header p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #3C3A3A;
+}
+
+.industries-card-container-one{
+    display: flex;
+    justify-content: space-between;
+    padding:3rem;
+}
+.industries-card-container-two{
+    display: flex;
+    justify-content: space-between;
+    padding:3rem;
+    
+}
+
+@media(max-width:1050px){
+    .industries-card-container-one{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .industries-card-container-two{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

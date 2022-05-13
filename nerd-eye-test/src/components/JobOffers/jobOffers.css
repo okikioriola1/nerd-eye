@@ -1,0 +1,137 @@
+.job-offers-section{
+    padding: 4rem 0;
+}
+.job-offers-main{
+    position: relative;
+    display: flex;
+}
+
+.job-offers-top-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.job-offers-header h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-transform: uppercase;
+    color: #3C3A3A;
+    text-align: center;
+    }
+
+
+.job-offers-counter{
+    display: flex;
+}
+
+.counter-one h1,
+.counter-two h1{
+     font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    text-transform: uppercase;
+
+    color: #3C3A3A;
+}
+.counter-one{
+    padding-right:3rem;
+}
+.counter-one p,
+.counter-two p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #3C3A3A;
+}
+
+.job-offers-left-cards-top{
+    display: flex;
+}
+.job-offers-left-cards-bottom{
+    display: flex;
+}
+
+.job-offers-left::after{
+    content:'';
+    position: absolute;
+    width: 655px;
+    height: 638px;
+    background: #E4E6EB;
+    opacity: 0.3;
+    border-radius: 30px 0px 0px 30px;
+    top: 0;
+    z-index: -1;
+}
+.job-offers-left{
+    width:78%;
+}
+
+.job-offers-right{
+    position: relative;
+    width:50%;
+}
+.job-offers-right img{
+    position: absolute;
+    /* width: 100%; */
+    right: 0%;
+    height: 611px;
+    /* object-fit: cover; */
+    z-index: -1;
+}
+
+.see-more-btn button{
+    width: 129px;
+    height: 58px;
+    border: 1px solid #D23432;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #D23432;
+    }
+
+    .see-more-btn{
+        display: none;
+    }
+
+@media(max-width:1050px){
+    .job-offers-right{
+        display: none;
+    }
+    .job-offers-left{
+        width: 100%;
+    }
+    .job-offers-left::after{
+        display: none;
+    }
+    .job-offers-left-cards-top{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .job-offers-left-cards-bottom{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .job-offers-counter{
+        justify-content: center;
+    }
+    .see-more-btn{
+        display: flex;
+        padding-top: 1rem;
+    }
+}

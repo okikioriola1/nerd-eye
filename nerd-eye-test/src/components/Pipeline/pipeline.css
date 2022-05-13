@@ -1,0 +1,49 @@
+.pipeline-section{
+    padding: 4rem 0;
+}
+.pipeline-container{
+
+}
+
+.top-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pipeline-top-header{
+    padding:3rem 0;
+}
+
+.pipeline-top-header h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-transform: uppercase;
+    color: #3C3A3A;
+    text-align: center;
+}
+
+.pipeline-top-header p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #3C3A3A;
+    text-align: center;
+}
+
+.pipeline-carousel{
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+
+@media(max-width: 990px){
+    .pipeline-carousel{
+        flex-direction: column;
+        align-items: center;
+    }
+}

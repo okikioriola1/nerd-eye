@@ -1,0 +1,119 @@
+.footer-section{
+    background: #F5F5F5;
+}
+
+.footer-container{
+    padding:3rem 4rem;
+}
+.footer-link-header h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: #222222;
+}
+.footer-link-header p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #575757;
+
+}
+
+.footer-link-body p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #575757;
+}
+
+.footer-contact{
+    display: flex;
+}
+.footer-contact p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #575757;
+    padding-left:0.5rem;
+}
+
+.footer-top-part{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.footer-bottom-part{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.contact-part{
+    width:40%;
+}
+.services-part,
+.courses-part{
+    width: 30%;
+}
+
+.company-part{
+    width:40%;
+}
+.other-part,
+.social-part{
+    width:30%;
+}
+
+.reserved-rights{
+    background: #D23431;
+    height:41px;
+    display: flex;
+    align-items: center;
+}
+.reserved-text{
+    padding-left:4rem;
+}
+.reserved-text p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.footer-link-social svg{
+    padding-right:2.5rem;
+    font-size:20px;
+}
+
+
+@media(max-width:950px){
+
+    .footer-top-part, .footer-bottom-part{
+    flex-direction: column;
+    }
+    .contact-part{
+        width:100%;
+    }
+    .services-part,
+    .courses-part{
+        width: 100%;
+    }
+    
+    .company-part{
+        width:100%;
+    }
+    .other-part,
+    .social-part{
+        width:100%;
+    }
+}

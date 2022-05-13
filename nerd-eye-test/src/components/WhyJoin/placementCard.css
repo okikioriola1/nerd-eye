@@ -1,0 +1,56 @@
+.placement-card{
+    width: 400px;
+    height: 60px;
+    background: #E8E8E8;
+    border-radius: 20px;
+    display: flex;
+    padding:0.7rem;
+    margin-top: 1rem;
+}
+
+.check-icon-container{
+    width: 45px;
+    height: 45px;
+    background: #C4C4C4;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.placement-text{
+    padding-left:1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.placement-text h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: #3C3A3A;
+}
+
+@media(max-width:1024px){
+    .placement-card{
+        background: none;
+    }
+
+}
+
+@media(max-width:550px){
+    .placement-card{
+        width:300px;
+        height:40px;
+    }
+    .check-icon-container{
+        width: 30px;
+        height: 30px;
+    }
+
+}
